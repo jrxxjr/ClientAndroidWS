@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Test Web Service JAX-WS e RESTFULL"        
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSoap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="WEB SERVICE JAX-WS"
+        android:text="WEB SERVICE JAX-WS" />
+
+    <EditText
+        android:id="@+id/editSoap"
+        android:layout_width="255dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:ems="10" 
+        android:textSize="14sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnRest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="WEBSERVICE RESTFUL"
+        android:text="WEBSERVICE RESTFUL" />
+
+    <EditText
+        android:id="@+id/editRest"
+        android:layout_width="fill_parent"
+        android:layout_height="87dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:maxLines="15"
+        android:minLines="15"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Limpar" />
+
+</LinearLayout>
