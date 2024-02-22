@@ -16,7 +16,7 @@ Exemplo de cliente Android consumindo Web Services SOAP e RESTful.
 - No Linux: standalone.sh -b 192.168.1.30 
 
 Obs: No local do núemro do IP que coloquei de meu PC, colocar o IP de seu PC, localhost é o próprio emulador.
-
+_________________________________________________________________________________________________________________________
 
 English:
 # Example of Android Client consuming Web Services
